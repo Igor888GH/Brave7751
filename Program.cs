@@ -10,9 +10,10 @@ a = -3, b = 9 => нет
 */
 
 // тип_данных имя_переменной = значение;
-// camelCase:  firstNumber, secondNumber
-int number = 9; // number = 9
-int result = number * number; // 9 * 9
+// // camelCase:  firstNumber, secondNumber - если переменная состоит из нескольких слов
+// int number = 9; // number = 9
+// int result = number * number; // 81
 
-
-
+Console.Write("Введите число: ");
+string input = Console.ReadLine();
+Console.WriteLine(input + 1000);
